@@ -1,0 +1,131 @@
+<html>
+  <head>
+    <title>Полезная информация</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <a class="link-header" href="index.html">Главная</a>
+    </header>
+    <main>
+      <h1>Полезная информация</h1>
+      <h2>Советы новичкам</h2>
+      <ol>
+        <li>Используй шапку, подвал, основной заголовок</li>
+        <li>Добавляй отступы</li>
+        <li>Подбирай цвета по цветовому кругу</li>
+        <li>Соблюдай симметрию</li>
+        <li>Пиши код понятно</li>
+        <li>Выделяй интерактивные элементы</li>
+      </ol>
+      <img class="clover" src="https://i.pinimg.com/736x/07/b0/b8/07b0b8198db3d674880d7d59af650609.jpg">
+      <h2>Инструменты</h2>
+      <p>Онлайн-конструктор <a class="link-text" href="https://tilda.cc/ru/"><b>Tilda</b></a></p>
+      <p>Графический редактор <a class="link-text" href="https://www.figma.com/"><b>Figma</b></a></p>
+      <p>Бесплатный сток картинок <a class="link-text" href="https://pixabay.com/"><b>Pixabay</b></a></p>
+      <p>Проверка качества текста <a class="link-text" href="https://glvrd.ru/"><b>Главред</b></a></p>
+      <p>Подбор ключевых слов <a class="link-text" href="https://kparser.com/"><b>Kparser</b></a></p>
+      <p>Цветовой круг <a class="link-text" href="https://colorscheme.ru/"><b>Colorsheme</b></a></p>
+      <p>Энциклопедия <a class="link-text" href="http://htmlbook.ru/html"><b>HTML</b></a> и <a class="link-text" href="http://htmlbook.ru/css"><b>CSS</b></a></p>
+      <p>Цвета HTML <a class="link-text" href="https://colorscheme.ru/html-colors.html"><b>colors</b></a></p>
+      <p>Допустимость вложенности <a class="link-text" href="https://caninclude.glitch.me/"><b>Caninclude</b></a></p>
+      <p>Онлайн редактор HTML/CSS <a  class="link-text" href="https://codly.ru/"><b>Codly</b></a></p>
+      <h2> Топ 5 смертей аниме </h2>
+      <ol>
+        <li> Мами Томоэ </li>
+        <li> Идзуми Акадзава </li>
+        <li> Нагиса Фурукава </li>
+        <li> Лелуш Ламперуж </li>
+        <li> Усио Окадзаки </li>
+      </ol>
+    </main>
+    <footer>
+      <a class="social" href=""><img class="social-img" src="https://i.pinimg.com/736x/43/f1/3d/43f13d4a519ce0165e3db682a2505c1a.jpg" width="100px" height="100px"/></a>
+      <a class="social" href=""><img class="social-img" src="https://i.pinimg.com/736x/1e/4b/72/1e4b72dc5a9906b86b01b3774dad180c.jpg" width="100px" height="100px"/></a>
+    </footer>
+  </body>
+<style>
+body {
+    font-family: cursive;
+    background-color: #418F93;
+}
+
+.clover {
+ float:right;
+ height:600px;
+ position:relative;
+bottom:200px;
+}
+
+.link-text {
+    color: white;
+    text-decoration: none;
+}
+p {
+    color: white;
+    text-shadow: 1px 2px #2A5C5E;
+}
+
+ol {
+    color:white;
+    text-shadow: 1px 2px #2A5C5E;
+}
+
+h2 {
+    color:white;
+    text-shadow: 2px 2px 2px #b01842;
+}
+
+h1 {
+    color:white;
+        text-shadow: 2px 2px 2px #f9a824;
+}
+
+footer {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+.link-header {
+    background-color: #57BFC4;
+    padding: 10px;
+    border-radius: 20%;
+    color:white;
+    text-decoration: none;
+    box-shadow: 2px 2px #f15a27;
+}
+
+.social-img {
+    border-radius:20%;
+    padding: 5px;
+}
+.link-header:hover {
+    transition: all 1s ease-out;
+    box-shadow: 2px 2px #57BFC4;
+    background-color: #f15a27;
+    color:black;
+}
+
+.social-img:hover {
+        border: 6px double #57BFC4;
+    transition: 0.5s ease-out;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+li:hover {
+    transition: 0.5s ease-out;
+    transform: scale(1.04);
+}
+
+.link-text:hover {
+    color: black;
+    transition: all 1s ease-out;
+    text-shadow: 2px 2px 2px white;
+}
+</style>
+</html>
